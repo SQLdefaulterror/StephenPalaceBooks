@@ -28,7 +28,7 @@ header h1 {
 }
 
 .author-photo {
-  width: 200px;
+  width: 230px;
   height: auto;
   border-radius: 1rem;
   margin-right: 2rem;
@@ -60,7 +60,7 @@ header h1 {
 }
 
 .book img {
-  width: 130px; /* antes era 100px */
+  width: 180px; /* antes era 100px */
   height: auto;
   margin-right: 1rem;
   border-radius: 0.5rem;
@@ -68,7 +68,7 @@ header h1 {
 }
 
 .videogames img {
-  width: 130px; /* igual que las imágenes de libros */
+  width: 180px; /* igual que las imágenes de libros */
   height: auto;
   margin-top: 1rem;
   border-radius: 0.5rem;
@@ -89,7 +89,7 @@ footer a {
 }
 
 footer img {
-  width: 20px;  /* antes sin tamaño definido */
+  width: 80px;  /* antes sin tamaño definido */
   height: auto;
   vertical-align: middle;
   margin-left: 0.5rem;
