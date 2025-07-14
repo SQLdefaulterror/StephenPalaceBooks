@@ -80,6 +80,14 @@ footer a {
   text-decoration: none;
 }
 
+.linea-divisoria {
+  border: none;
+  height: 2px;
+  background-color: #ccc;
+  margin: 2rem 0;
+  width: 100%; /* o un valor como 80% */
+}
+
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
