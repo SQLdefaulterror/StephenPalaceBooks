@@ -60,9 +60,17 @@ header h1 {
 }
 
 .book img {
-  width: 100px;
+  width: 130px; /* antes era 100px */
   height: auto;
   margin-right: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.videogames img {
+  width: 130px; /* igual que las imágenes de libros */
+  height: auto;
+  margin-top: 1rem;
   border-radius: 0.5rem;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -78,6 +86,13 @@ footer {
 footer a {
   color: #9dd6ff;
   text-decoration: none;
+}
+
+footer img {
+  width: 20px;  /* antes sin tamaño definido */
+  height: auto;
+  vertical-align: middle;
+  margin-left: 0.5rem;
 }
 
 .linea-divisoria {
