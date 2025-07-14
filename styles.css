@@ -38,12 +38,12 @@ header h1 {
   flex: 1;
 }
 
-.books, .videogames, .future {
+.books, .videogames {
   padding: 2rem;
   background-color: #fafafa;
 }
 
-.books h2, .videogames h2, .future h2 {
+.books h2, .videogames h2 {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
   margin-bottom: 1rem;
