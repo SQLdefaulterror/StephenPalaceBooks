@@ -25,6 +25,7 @@
   <hr class="linea-divisoria"><br>
 
   <section class="hero">
+    <img src="img/stephen_beach.png" alt="Foto de Stephen Palace en la playa" class="author-photo" onclick="this.classList.toggle('reveal')">
     <div class="about">
       <h2>¿Qué ha pasado con Stephen Palace?</h2>
       <p>¡Buenas Palacers! Tranquilos todos, últimamente ha habido mucho revuelo pero estoy aquí. La publicación de <strong>Sangre Fría, Calles Calientes©</strong> ha sido todo un éxito alcanzando las 20 copias vendidas en estos últimos meses.</p>
@@ -34,7 +35,18 @@
     </div>
   </section>
 
-  <img src="img/stephen_beach.png" alt="Foto de Stephen Palace en la playa" class="author-photo">
+<style>
+.spoiler img {
+  filter: blur(15px);
+  transition: filter 0.3s;
+  cursor: pointer;
+}
+.spoiler.reveal img {
+  filter: blur(0);
+}
+</style>
+
+  
   
   <section class="hero">
     <div class="about">
@@ -98,7 +110,7 @@
   <hr class="linea-divisoria"><br>
     
     <div class="book">
-      <img src="img/police.png" alt="Portada de Sangre Fría, Calles Calientes">
+      <img src="img/police.jpg" alt="Portada de Sangre Fría, Calles Calientes">
       <p><strong>Sangre Fría, Calles Calientes</strong>: Mi mejor obra hasta la fecha. Una trama convulsa, personajes complejos, sexo, violencia y cromo. Mucho cromo.</p>
     </div>
   </section>
