@@ -103,6 +103,15 @@ footer img {
   width: 100%; /* o un valor como 80% */
 }
 
+.spoiler img {
+  filter: blur(15px);
+  transition: filter 0.3s;
+  cursor: pointer;
+}
+.spoiler.reveal img {
+  filter: blur(0);
+}
+
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
