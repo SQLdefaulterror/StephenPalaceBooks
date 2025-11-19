@@ -60,7 +60,7 @@ header h1 {
 }
 
 .book img {
-  width: 180px; /* antes era 100px */
+  width: 180px;
   height: auto;
   margin-right: 1rem;
   border-radius: 0.5rem;
@@ -68,7 +68,7 @@ header h1 {
 }
 
 .videogames img {
-  width: 180px; /* igual que las imágenes de libros */
+  width: 180px;
   height: auto;
   margin-top: 1rem;
   border-radius: 0.5rem;
@@ -89,7 +89,7 @@ footer a {
 }
 
 footer img {
-  width: 80px;  /* antes sin tamaño definido */
+  width: 80px;
   height: auto;
   vertical-align: middle;
   margin-left: 0.5rem;
@@ -100,14 +100,43 @@ footer img {
   height: 2px;
   background-color: #ccc;
   margin: 2rem 0;
-  width: 100%; /* o un valor como 80% */
+  width: 100%;
+}
+
+/* === SPOILER === */
+
+.spoiler {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .spoiler img {
   filter: blur(15px);
   transition: filter 0.3s;
-  cursor: pointer;
+  display: block;
 }
+
+/* Texto encima */
+.spoiler-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.65);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.spoiler.reveal .spoiler-text {
+  opacity: 0;
+}
+
 .spoiler.reveal img {
   filter: blur(0);
 }
